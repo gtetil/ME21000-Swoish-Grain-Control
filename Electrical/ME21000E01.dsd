@@ -1,0 +1,142 @@
+[DWF6Version]
+Ver=1
+[DWF6MinorVersion]
+MinorVer=1
+[DWF6Sheet:ME21000E00-Model]
+DWG=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E00.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E00.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:ME21000E02-Model]
+DWG=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E02.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E02.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:ME21000E04-Model]
+DWG=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E04.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E04.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:ME21000E05-Model]
+DWG=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E05.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E05.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:ME21000E06-Model]
+DWG=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E06.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E06.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:ME21000E08-Model]
+DWG=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E08.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E08.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:ME21000E09-Model]
+DWG=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E09.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E09.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:ME21000E11-Model]
+DWG=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E11.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E11.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:ME21000E12-Model]
+DWG=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E12.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E12.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:ME21000E13-Model]
+DWG=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E13.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E13.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:ME21000E14-Model]
+DWG=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E14.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E14.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:ME21000E15-Model]
+DWG=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E15.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E15.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:ME21000E18-Model]
+DWG=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E18.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E18.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:ME21000E19-Model]
+DWG=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E19.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E19.dwg
+Has Plot Port=0
+Has3DDWF=0
+[Target]
+Type=6
+DWF=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E00.pdf
+OUT=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\
+PWD=
+[MRU Local]
+MRU=1
+File0=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\
+[PdfOptions]
+IncludeHyperlinks=TRUE
+CreateBookmarks=TRUE
+CaptureFontsInDrawing=TRUE
+ConvertTextToGeometry=FALSE
+VectorResolution=1200
+RasterResolution=400
+[AutoCAD Block Data]
+IncludeBlockInfo=0
+BlockTmplFilePath=
+[SheetSet Properties]
+IsSheetSet=FALSE
+IsHomogeneous=FALSE
+SheetSet Name=
+NoOfCopies=1
+PlotStampOn=FALSE
+ViewFile=FALSE
+JobID=0
+SelectionSetName=
+AcadProfile=<<VANILLA>>
+CategoryName=
+LogFilePath=
+IncludeLayer=TRUE
+LineMerge=FALSE
+CurrentPrecision=
+PromptForDwfName=TRUE
+PwdProtectPublishedDWF=FALSE
+PromptForPwd=FALSE
+RepublishingMarkups=FALSE
+PublishSheetSetMetadata=FALSE
+PublishSheetMetadata=FALSE
+3DDWFOptions=0 1
