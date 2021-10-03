@@ -11,7 +11,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Motor Data.ctl" Type="VI" URL="../Type Defs/Motor Data.ctl"/>
 		<Item Name="plc debug.vi" Type="VI" URL="../Debug/plc debug.vi"/>
 		<Item Name="Swoish Grain Control.vi" Type="VI" URL="../Swoish Grain Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -29,6 +28,8 @@
 			</Item>
 			<Item Name="Alarm Config.ctl" Type="VI" URL="../Type Defs/Alarm Config.ctl"/>
 			<Item Name="Alarm Type.ctl" Type="VI" URL="../Type Defs/Alarm Type.ctl"/>
+			<Item Name="Auto Params 1.ctl" Type="VI" URL="../Type Defs/Auto Params 1.ctl"/>
+			<Item Name="Auto Params 2.ctl" Type="VI" URL="../Type Defs/Auto Params 2.ctl"/>
 			<Item Name="Bin Indicator Control.vi" Type="VI" URL="../SubVIs/Bin Indicator Control.vi"/>
 			<Item Name="Bin Indicator Type Def.ctl" Type="VI" URL="../Type Defs/Bin Indicator Type Def.ctl"/>
 			<Item Name="HMI Coils.ctl" Type="VI" URL="../Type Defs/HMI Coils.ctl"/>
@@ -36,9 +37,11 @@
 			<Item Name="Info Config.ctl" Type="VI" URL="../Type Defs/Info Config.ctl"/>
 			<Item Name="Modbus Global.vi" Type="VI" URL="../SubVIs/Modbus Global.vi"/>
 			<Item Name="Modbus Mode.ctl" Type="VI" URL="../Type Defs/Modbus Mode.ctl"/>
+			<Item Name="Motor Data.ctl" Type="VI" URL="../Type Defs/Motor Data.ctl"/>
 			<Item Name="Motor Pop-up Config Type Def.ctl" Type="VI" URL="../Type Defs/Motor Pop-up Config Type Def.ctl"/>
 			<Item Name="Motor Type Type Def.ctl" Type="VI" URL="../Type Defs/Motor Type Type Def.ctl"/>
 			<Item Name="Motors Type Def.ctl" Type="VI" URL="../Type Defs/Motors Type Def.ctl"/>
+			<Item Name="Numeric Big Up Down.ctl" Type="VI" URL="../Type Defs/Numeric Big Up Down.ctl"/>
 			<Item Name="PLC Coils.ctl" Type="VI" URL="../Type Defs/PLC Coils.ctl"/>
 			<Item Name="PLC Registers.ctl" Type="VI" URL="../Type Defs/PLC Registers.ctl"/>
 			<Item Name="Pop-up Config.vi" Type="VI" URL="../SubVIs/Pop-up Config.vi"/>
