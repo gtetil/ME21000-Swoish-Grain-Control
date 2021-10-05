@@ -11,6 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Motor Indicator.ctl" Type="VI" URL="../Type Defs/Motor Indicator.ctl"/>
 		<Item Name="plc debug.vi" Type="VI" URL="../Debug/plc debug.vi"/>
 		<Item Name="Swoish Grain Control.vi" Type="VI" URL="../Swoish Grain Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -51,6 +52,103 @@
 			</Item>
 			<Item Name="Update Motors.vi" Type="VI" URL="../SubVIs/Update Motors.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Swoish Grain Control" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{182572A5-82FB-4786-A71C-D540F3E2EC6D}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{9387EC0D-F38F-492D-A0A7-40F92014F561}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BC88F546-30DF-4A00-BEEF-044F4020FB8D}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Swoish Grain Control</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Swoish Grain Control</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{EA077DFE-4C71-4B01-BA79-0B686AD19478}</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Swoish Grain Control.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Swoish Grain Control/Swoish Grain Control.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Swoish Grain Control/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3430D390-7BC5-47BF-98AC-321AD42142E1}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Swoish Grain Control.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Window has title bar</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[2].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[3].type" Type="Str">Show horizontal scroll bar</Property>
+				<Property Name="Source[1].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[4].type" Type="Str">Show toolbar</Property>
+				<Property Name="Source[1].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[5].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[1].properties[5].value" Type="Str">Maximized</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">6</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">TI Automotive</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Swoish Grain Control</Property>
+				<Property Name="TgtF_internalName" Type="Str">Swoish Grain Control</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 TI Automotive</Property>
+				<Property Name="TgtF_productName" Type="Str">Swoish Grain Control</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{176A4881-29CA-49E3-8EA1-CB8C269DD8E2}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Swoish Grain Control.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Swoish Grain Control Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Swoish Grain Control</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{1BB1EE41-CB55-4864-B80F-940932DB9A30}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="INST_author" Type="Str">TI Automotive</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/Users/garre/Documents/Projects/Installers/Swoish Grain Control</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Swoish Grain Control Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{1BB1EE41-CB55-4864-B80F-940932DB9A30}</Property>
+				<Property Name="INST_installerName" Type="Str">Swoish Grain Control.exe</Property>
+				<Property Name="INST_productName" Type="Str">Swoish Grain Control</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
+				<Property Name="MSI_arpCompany" Type="Str">TI Automotive</Property>
+				<Property Name="MSI_distID" Type="Str">{B9F437E0-0F86-440C-B347-199068CD0928}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{D0FB6BBA-9D5B-43F2-AB15-0ABA168BB9D1}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{1BB1EE41-CB55-4864-B80F-940932DB9A30}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{1BB1EE41-CB55-4864-B80F-940932DB9A30}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Swoish Grain Control.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Swoish Grain Control</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Swoish Grain Control</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">2</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">Swoish Grain Control</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str">Swoish Grain Control</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{176A4881-29CA-49E3-8EA1-CB8C269DD8E2}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">Swoish Grain Control</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Swoish Grain Control</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
