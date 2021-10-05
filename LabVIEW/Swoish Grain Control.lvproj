@@ -11,6 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Keyboard Button.ctl" Type="VI" URL="../Type Defs/Keyboard Button.ctl"/>
 		<Item Name="Motor Indicator.ctl" Type="VI" URL="../Type Defs/Motor Indicator.ctl"/>
 		<Item Name="plc debug.vi" Type="VI" URL="../Debug/plc debug.vi"/>
 		<Item Name="Swoish Grain Control.vi" Type="VI" URL="../Swoish Grain Control.vi"/>
@@ -69,7 +70,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EA077DFE-4C71-4B01-BA79-0B686AD19478}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Swoish Grain Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Swoish Grain Control/Swoish Grain Control.exe</Property>
@@ -120,7 +121,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{1BB1EE41-CB55-4864-B80F-940932DB9A30}</Property>
 				<Property Name="INST_installerName" Type="Str">Swoish Grain Control.exe</Property>
 				<Property Name="INST_productName" Type="Str">Swoish Grain Control</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">TI Automotive</Property>
