@@ -11,7 +11,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="plc debug.vi" Type="VI" URL="../Debug/plc debug.vi"/>
+		<Item Name="Email Handler" Type="Folder">
+			<Item Name="Email Global.vi" Type="VI" URL="../SubVIs/Email Handler/Email Global.vi"/>
+			<Item Name="gmail_script.py" Type="Document" URL="../SubVIs/Email Handler/gmail_script.py"/>
+			<Item Name="Python Email.vi" Type="VI" URL="../SubVIs/Email Handler/Python Email.vi"/>
+		</Item>
 		<Item Name="Swoish Grain Control.vi" Type="VI" URL="../Swoish Grain Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -25,6 +29,7 @@
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 				<Item Name="SubVIs.lvlib" Type="Library" URL="/&lt;vilib&gt;/Modbus/subvis/SubVIs.lvlib"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="Alarm Config.ctl" Type="VI" URL="../Type Defs/Alarm Config.ctl"/>
 			<Item Name="Alarm Type.ctl" Type="VI" URL="../Type Defs/Alarm Type.ctl"/>
@@ -32,6 +37,7 @@
 			<Item Name="Auto Params 2.ctl" Type="VI" URL="../Type Defs/Auto Params 2.ctl"/>
 			<Item Name="Bin Indicator Control.vi" Type="VI" URL="../SubVIs/Bin Indicator Control.vi"/>
 			<Item Name="Bin Indicator Type Def.ctl" Type="VI" URL="../Type Defs/Bin Indicator Type Def.ctl"/>
+			<Item Name="Email Config.ctl" Type="VI" URL="../Type Defs/Email Config.ctl"/>
 			<Item Name="HMI Coils.ctl" Type="VI" URL="../Type Defs/HMI Coils.ctl"/>
 			<Item Name="HMI Registers.ctl" Type="VI" URL="../Type Defs/HMI Registers.ctl"/>
 			<Item Name="Info Config.ctl" Type="VI" URL="../Type Defs/Info Config.ctl"/>
