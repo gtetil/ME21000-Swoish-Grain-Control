@@ -11,14 +11,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Email Handler" Type="Folder">
-			<Item Name="Email Global.vi" Type="VI" URL="../SubVIs/Email Handler/Email Global.vi"/>
-			<Item Name="gmail_script.py" Type="Document" URL="../SubVIs/Email Handler/gmail_script.py"/>
-			<Item Name="Python Email.vi" Type="VI" URL="../SubVIs/Email Handler/Python Email.vi"/>
-		</Item>
+		<Item Name="gmail_script.py" Type="Document" URL="../gmail_script.py"/>
 		<Item Name="Swoish Grain Control.vi" Type="VI" URL="../Swoish Grain Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
 				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
@@ -26,18 +23,21 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="Modbus Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Modbus/master/Modbus Master.lvclass"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 				<Item Name="SubVIs.lvlib" Type="Library" URL="/&lt;vilib&gt;/Modbus/subvis/SubVIs.lvlib"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="Alarm Config.ctl" Type="VI" URL="../Type Defs/Alarm Config.ctl"/>
+			<Item Name="Alarm Limits.ctl" Type="VI" URL="../Type Defs/Alarm Limits.ctl"/>
 			<Item Name="Alarm Type.ctl" Type="VI" URL="../Type Defs/Alarm Type.ctl"/>
 			<Item Name="Auto Params 1.ctl" Type="VI" URL="../Type Defs/Auto Params 1.ctl"/>
 			<Item Name="Auto Params 2.ctl" Type="VI" URL="../Type Defs/Auto Params 2.ctl"/>
 			<Item Name="Bin Indicator Control.vi" Type="VI" URL="../SubVIs/Bin Indicator Control.vi"/>
 			<Item Name="Bin Indicator Type Def.ctl" Type="VI" URL="../Type Defs/Bin Indicator Type Def.ctl"/>
 			<Item Name="Email Config.ctl" Type="VI" URL="../Type Defs/Email Config.ctl"/>
+			<Item Name="Email Global.vi" Type="VI" URL="../SubVIs/Email Handler/Email Global.vi"/>
 			<Item Name="HMI Coils.ctl" Type="VI" URL="../Type Defs/HMI Coils.ctl"/>
 			<Item Name="HMI Registers.ctl" Type="VI" URL="../Type Defs/HMI Registers.ctl"/>
 			<Item Name="Info Config.ctl" Type="VI" URL="../Type Defs/Info Config.ctl"/>
@@ -54,6 +54,7 @@
 			<Item Name="PLC Registers.ctl" Type="VI" URL="../Type Defs/PLC Registers.ctl"/>
 			<Item Name="Pop-up Config.vi" Type="VI" URL="../SubVIs/Pop-up Config.vi"/>
 			<Item Name="Pop-up Corner Type Def.ctl" Type="VI" URL="../Type Defs/Pop-up Corner Type Def.ctl"/>
+			<Item Name="Python Email.vi" Type="VI" URL="../SubVIs/Email Handler/Python Email.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -76,16 +77,16 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EA077DFE-4C71-4B01-BA79-0B686AD19478}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Swoish Grain Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Swoish Grain Control/Swoish Grain Control.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Swoish Grain Control/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Swoish Grain Control</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3430D390-7BC5-47BF-98AC-321AD42142E1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4F4FD6D2-88DA-4692-BE93-BE8420BCEA2B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Swoish Grain Control.vi</Property>
@@ -104,7 +105,10 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">6</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/gmail_script.py</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">TI Automotive</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Swoish Grain Control</Property>
 				<Property Name="TgtF_internalName" Type="Str">Swoish Grain Control</Property>
@@ -127,7 +131,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{1BB1EE41-CB55-4864-B80F-940932DB9A30}</Property>
 				<Property Name="INST_installerName" Type="Str">Swoish Grain Control.exe</Property>
 				<Property Name="INST_productName" Type="Str">Swoish Grain Control</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.8</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.13</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">TI Automotive</Property>
