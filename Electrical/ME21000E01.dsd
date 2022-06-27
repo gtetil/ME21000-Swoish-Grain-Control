@@ -107,6 +107,20 @@ Setup=Setup1
 OriginalSheetPath=C:\Users\garre\Documents\Projects\ME21000-Swoish-Grain-Control\Electrical\ME21000E21.dwg
 Has Plot Port=0
 Has3DDWF=0
+[DWF6Sheet:ME21000E22-Model]
+DWG=C:\Users\garre\Documents\Projects\ME21000-Swoish-Grain-Control\Electrical\ME21000E22.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\garre\Documents\Projects\ME21000-Swoish-Grain-Control\Electrical\ME21000E22.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:ME21000E23-Model]
+DWG=C:\Users\garre\Documents\Projects\ME21000-Swoish-Grain-Control\Electrical\ME21000E23.dwg
+Layout=Model
+Setup=Setup1
+OriginalSheetPath=C:\Users\garre\Documents\Projects\ME21000-Swoish-Grain-Control\Electrical\ME21000E23.dwg
+Has Plot Port=0
+Has3DDWF=0
 [Target]
 Type=6
 DWF=C:\Users\gtetil\Documents\Projects\ME21000-Swoish-Farm-Grain\ME21000E00.pdf
